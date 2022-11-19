@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC_Calculator", "IMC_Calculator\IMC_Calculator.csproj", "{10C761DD-9612-4EE3-BF6C-34DFD11B990D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayUnaDimension", "ArrayUnaDimension\ArrayUnaDimension.csproj", "{AFAD7FCD-42EE-4B95-BFB7-A7E59359D5C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMC_WinForms", "IMC_WinForms\IMC_WinForms.csproj", "{95707B6B-6117-45CE-8C42-71374720A6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMCServices", "IMCServices\IMCServices.csproj", "{4970C955-E56C-47A6-A29C-1BDB2766B92A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C761DD-9612-4EE3-BF6C-34DFD11B990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C761DD-9612-4EE3-BF6C-34DFD11B990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C761DD-9612-4EE3-BF6C-34DFD11B990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C761DD-9612-4EE3-BF6C-34DFD11B990D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFAD7FCD-42EE-4B95-BFB7-A7E59359D5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAD7FCD-42EE-4B95-BFB7-A7E59359D5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAD7FCD-42EE-4B95-BFB7-A7E59359D5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAD7FCD-42EE-4B95-BFB7-A7E59359D5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95707B6B-6117-45CE-8C42-71374720A6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95707B6B-6117-45CE-8C42-71374720A6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95707B6B-6117-45CE-8C42-71374720A6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95707B6B-6117-45CE-8C42-71374720A6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4970C955-E56C-47A6-A29C-1BDB2766B92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4970C955-E56C-47A6-A29C-1BDB2766B92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4970C955-E56C-47A6-A29C-1BDB2766B92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4970C955-E56C-47A6-A29C-1BDB2766B92A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A9511F2-D8A5-4D45-8C9A-7530CA2E8ABF}
+	EndGlobalSection
+EndGlobal
