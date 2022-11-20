@@ -31,11 +31,15 @@ namespace IMC_WinForms
         {
             double Peso;
             double Altura;
+            double IMC;
 
             Peso = double.Parse(TxtPeso.Text);
             Altura = double.Parse(TxtAltura.Text);
+            IMC = imcService.CalcularIMC(Peso, Altura);
 
-            LblIMC.Text = imcService.CalcularIMC(Peso, Altura).ToString();
+            LblIMC.Text = IMC.ToString();
+
+            LblDiagnostico.Text = imcService.ObtenerDiagnostico(IMC);
 
         }
     }

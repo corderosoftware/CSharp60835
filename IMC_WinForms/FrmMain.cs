@@ -36,5 +36,17 @@ namespace IMC_WinForms
             frmDiagnostico.ShowDialog();
             //this.Hide();
         }
+
+        private void BtnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtnComprar_Click(object sender, EventArgs e)
+        {
+            FrmComprar frmComprar = new FrmComprar(this);
+            frmComprar.Show();
+            this.Hide();
+        }
     }
 }
